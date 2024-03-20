@@ -1,0 +1,8 @@
+test: &default
+  PAYPAL_ENV: sandbox
+  PAYPAL_CLIENT_ID:    
+  PAYPAL_CLIENT_SECRET:  
+  STRIPE_PUBLISHABLE_KEY: 
+  STRIPE_SECRET_KEY:  
+development:
+  <<: *default
